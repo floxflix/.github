@@ -75,6 +75,10 @@ curl -X POST http://localhost:7777/v1/api/videos/upload \
 2. **FFmpeg transcodes it** — the background queue converts the source into HLS segments and a playlist, then marks the job complete.
 3. **Stream to your users** — authenticated clients hit the streaming endpoint and play the HLS output in any modern browser, app or TV client.
 
+## Legal
+
+Floxflix is intended only for content you own or otherwise have the rights to stream. It ships with no media, and you are responsible for how you use it.
+
 ## Community
 
 - [Issues](https://github.com/floxflix/floxflix/issues) — bug reports and feature requests
