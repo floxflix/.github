@@ -7,12 +7,12 @@
 A self-hosted video streaming platform. Upload source files, let FFmpeg transcode them to HLS in the background, and stream to your own users — with authenticated profiles and zero third-party cloud.
 
 [![Website](https://img.shields.io/badge/website-floxflix.github.io-0b0b0f?style=flat-square)](https://floxflix.github.io/)
-[![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](https://github.com/floxflix/flixflox/blob/main/LICENSE)
-[![Go](https://img.shields.io/badge/Go-1.26-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/floxflix/flixflox)
-[![FFmpeg](https://img.shields.io/badge/FFmpeg-HLS-007808?style=flat-square&logo=ffmpeg&logoColor=white)](https://github.com/floxflix/flixflox)
-[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/floxflix/flixflox)
+[![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](https://github.com/floxflix/floxflix/blob/main/LICENSE)
+[![Go](https://img.shields.io/badge/Go-1.26-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/floxflix/floxflix)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-HLS-007808?style=flat-square&logo=ffmpeg&logoColor=white)](https://github.com/floxflix/floxflix)
+[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/floxflix/floxflix)
 
-[**Get started**](https://github.com/floxflix/flixflox#readme) · [**API reference**](https://github.com/floxflix/flixflox/blob/main/openapi.yml) · [**Website**](https://floxflix.github.io/)
+[**Get started**](https://github.com/floxflix/floxflix#readme) · [**API reference**](https://github.com/floxflix/floxflix/blob/main/openapi.yml) · [**Website**](https://floxflix.github.io/)
 
 </div>
 
@@ -33,18 +33,18 @@ Floxflix is an open-source, self-hosted video streaming API written in Go. It in
 
 | Repository | Description | Stack |
 | --- | --- | --- |
-| [**flixflox**](https://github.com/floxflix/flixflox) | Self-hosted video streaming API — upload, transcode, authenticate, stream | Go · FFmpeg · MongoDB |
-| [**flixflox-ui**](https://github.com/floxflix/flixflox-ui) | Admin dashboard and web client for the FlixFlox stack | TypeScript |
-| [**flixflox-manifests**](https://github.com/floxflix/flixflox-manifests) | Raw Kubernetes manifests for the FlixFlox stack | Kubernetes |
-| [**flixflox-telegram-bot**](https://github.com/floxflix/flixflox-telegram-bot) | Telegram bot for FlixFlox | Go |
+| [**floxflix**](https://github.com/floxflix/floxflix) | Self-hosted video streaming API — upload, transcode, authenticate, stream | Go · FFmpeg · MongoDB |
+| [**floxflix-ui**](https://github.com/floxflix/floxflix-ui) | Admin dashboard and web client for the floxflix stack | TypeScript |
+| [**floxflix-manifests**](https://github.com/floxflix/floxflix-manifests) | Raw Kubernetes manifests for the floxflix stack | Kubernetes |
+| [**floxflix-telegram-bot**](https://github.com/floxflix/floxflix-telegram-bot) | Telegram bot for floxflix | Go |
 | [**floxflix.github.io**](https://github.com/floxflix/floxflix.github.io) | Project website | HTML |
 
 ## Quickstart
 
 ```bash
 # clone the API
-git clone https://github.com/floxflix/flixflox
-cd flixflox
+git clone https://github.com/floxflix/floxflix
+cd floxflix
 
 # set the required secret
 export JWT_SECRET_KEY=$(openssl rand -base64 48)
@@ -77,15 +77,15 @@ curl -X POST http://localhost:7777/v1/api/videos/upload \
 
 ## Community
 
-- [Issues](https://github.com/floxflix/flixflox/issues) — bug reports and feature requests
-- [Discussions](https://github.com/floxflix/flixflox/discussions) — questions and ideas
-- [Contributing](https://github.com/floxflix/flixflox/blob/main/CONTRIBUTING.md) — how to get involved
+- [Issues](https://github.com/floxflix/floxflix/issues) — bug reports and feature requests
+- [Discussions](https://github.com/floxflix/floxflix/discussions) — questions and ideas
+- [Contributing](https://github.com/floxflix/floxflix/blob/main/CONTRIBUTING.md) — how to get involved
 
 ---
 
 <div align="center">
 
-Released under the [MIT License](https://github.com/floxflix/flixflox/blob/main/LICENSE) · Built for people who host their own media.
+Released under the [MIT License](https://github.com/floxflix/floxflix/blob/main/LICENSE) · Built for people who host their own media.
 
 <sub>hello@floxflix.io</sub>
 
